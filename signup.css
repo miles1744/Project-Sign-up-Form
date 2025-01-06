@@ -6,7 +6,10 @@
     font-style: normal;
 
 }
-p {
-    font-weight: 300;
-    color: blue;
+
+.background{
+    min-width: 200px;
+    max-width: 30%;
+    height:  100vh;
+    margin-left: 200px;
 }
