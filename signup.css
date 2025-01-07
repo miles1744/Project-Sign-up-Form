@@ -51,6 +51,7 @@
 }
 
 .form-container {
-    position: relative;
+    position: absolute;
     display: inline-block;
+    margin-left: 10px;
 }
