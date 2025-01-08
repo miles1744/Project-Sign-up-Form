@@ -61,3 +61,11 @@
     font-size: 17px;
 
 }
+
+.form-container > form {
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    height: 24px;
+    border-radius: 4px;
+    margin-top: 8px;
+} 
