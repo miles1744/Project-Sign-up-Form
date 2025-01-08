@@ -87,6 +87,8 @@ input{
     margin-top: 8px;
 }
 
-form>div>*{
-    display: block;
+
+form>div{
+    margin-bottom: 24px;
+    width: 40%;
 }
