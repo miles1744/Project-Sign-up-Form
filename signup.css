@@ -53,7 +53,10 @@
 .form-container {
     position: absolute;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
 }
 
 .form-container > p {
@@ -63,9 +66,27 @@
 }
 
 .form-container > form {
-    width: 80%;
-    background-color: rgb(245, 245, 245);
-    height: 24px;
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
     border-radius: 4px;
     margin-top: 8px;
 } 
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    
+input{
+    width: 80%;
+    border: 1px solid #E5E7EB;
+    height: 24px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+form>div>*{
+    display: block;
+}
