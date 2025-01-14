@@ -47,24 +47,38 @@
 
                 <div>
                     <label for="phone_number">PHONE NUMBER</label>
-                    <input id="phone_number" type="text" name="phone_number">
+                    <input id="phone_number" type="text" name="phone_number" pattern="\d{3}-\d{3}-\d{4}">
                 </div>
 
                 <div>
                     <label for="email">EMAIL</label>
-                    <input id="email" type="text" name="email">
+                    <input id="email" type="email" name="email">
                 </div>
 
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input id="password" type="text" name="password">
+                    <input id="password" type="text" name="password" required>
                 </div>
 
                 <div>
                     <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input id="password" type="text" name="confirm_password">
+                    <input id="password" type="text" name="confirm_password" required>
                 </div>
+
+                <div class="button-container">
+                    <button class="button-container">Create Account</button>
+                </div>
+
             </form>
+            <p style="
+            margin-left: 35px;
+            margin-top: 150px;
+            ">Already have an account? <span
+            style="
+            color: #596D48;
+            font-weight: bold;
+            ">Log in</span></p>
+
         </div>
     </body>
 </html>
